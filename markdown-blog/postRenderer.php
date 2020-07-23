@@ -30,4 +30,9 @@
         $lines = array_slice(explode(PHP_EOL, $string), 0, $count);
         return implode(PHP_EOL, $lines);
     }
+    
+    function getFirstLinesOfBody($string, $start, $end) {
+        $lines = array_slice(explode(PHP_EOL, $string), $start, $end);
+        return implode(PHP_EOL, $lines);
+    }
 ?>
