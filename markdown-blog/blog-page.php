@@ -16,8 +16,8 @@ if (file_exists($page)) {
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
+<head><meta charset="windows-1252">
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!--<link rel="stylesheet" href="blog.css">-->
     <title><?php echo $pageTitle ?></title>
@@ -52,7 +52,7 @@ if (file_exists($page)) {
     <div class="container">
         <hr/>
         <p>
-             Copyright &copy; dlpb.uk 2010-<?php echo date("Y");?>. This is a personal website and any views or opinions expressed within are my own.
+             Copyright &copy; dlpb.uk 2018-<?php echo date("Y");?>. This is a personal website and any views or opinions expressed within are my own.
         </p>
     </div>
 </footer>

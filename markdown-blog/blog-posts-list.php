@@ -6,6 +6,16 @@
     <!--<link rel="stylesheet" href="blog.css">-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+         .card-header > div > div > h1 > a {
+             color:#343a40;
+             text-decoration: underline;
+         }
+         .card-header > div > div > h1 > a:hover {
+             color: #6c757d;
+         }
+         
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -31,7 +41,7 @@
     <div class="container">
         <hr/>
         <p>
-             Copyright &copy; dlpb.uk 2010-<?php echo date("Y");?>. This is a personal website and any views or opinions expressed within are my own.
+             Copyright &copy; dlpb.uk 2018-<?php echo date("Y");?>. This is a personal website and any views or opinions expressed within are my own.
         </p>
     </div>
 </footer>
